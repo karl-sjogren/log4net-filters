@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>Shorthand.log4net.Filters</title>
+    <authors>Karl-Johan Sjögren</authors>
+    <owners>Karl-Johan Sjögren</owners>
+    <licenseUrl>http://karl-sjogren.mit-license.org/</licenseUrl>
+    <projectUrl>https://github.com/karl-sjogren/log4net-filters</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Custom filters for log4net</description>
+    <copyright>Copyright 2014</copyright>
+    <tags>log4net</tags>
+  </metadata>
+</package>

@@ -1,0 +1,15 @@
+﻿<h1>log4net-filters</h1>
+
+<p>Custom filters for log4net (well, one at least so far)</p>
+
+<h2>ExceptionFilter</h2>
+
+<p><code>xml<br/>
+&lt;appender&gt;<br/>
+   ....<br/>
+   &lt;filter type="Shorthand.log4net.Filters.ExceptionFilter"&gt;<br/>
+      &lt;exceptionTypeName value="Shorthand.log4net.Filters.Tests.UnimportantException, Shorthand.log4net.Filters.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" /&gt;<br/>
+      &lt;acceptOnMatch value="false" /&gt;<br/>
+   &lt;/filter&gt;<br/>
+&lt;/appender&gt;<br/>
+</code></p>
